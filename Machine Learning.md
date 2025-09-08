@@ -1,0 +1,28 @@
+![[Unit2.pdf#page=1]]
+### Supervised Learning
+- Terminology
+	- Dataset: collection of data objects
+	- Object : Instance, Record, Point 
+	- Attribute (Variable) : Property or characteristic of object
+	- Target concept: Function to be learned
+	- Training set: Set of instances to predict target concept
+	- Test set: Instances used to evaluate model (candidate concept)
+	- Candidate: Concept that could model target concept
+- Classification
+	- assigning objects to a class
+- Regression:
+	- assigning objects to continuous values
+- Hunts Algorithm
+	- Split when node is not pure
+	- If no more attributes AND node not pure use label in majority
+		- If label is equal, flip of coin to decide
+- How should training instances be split
+	- Multi-way split
+		- as many partitions as distinct values
+	- Binary Split:
+		- Divides values into two subsets
+		- Must preserver order
+- Entropy
+- Midterm Trick
+	- How do you split the data
+		- Find the information gain of each split
